@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */ = {isa = PBXBuildFile; fileRef = 53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */; };
-		8B26A9141B428A53000C2690 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9131B428A53000C2690 /* YTPlayerView.m */; };
 		8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9181B428AA2000C2690 /* RCTYouTube.m */; };
 		8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A91A1B428AA2000C2690 /* RCTYouTubeManager.m */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 /* Begin PBXFileReference section */
 		53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTubeStandalone.h; sourceTree = SOURCE_ROOT; };
 		53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYouTubeStandalone.m; sourceTree = SOURCE_ROOT; };
-		8B26A9121B428A53000C2690 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = YTPlayerView/YTPlayerView.h; sourceTree = SOURCE_ROOT; };
-		8B26A9131B428A53000C2690 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = YTPlayerView/YTPlayerView.m; sourceTree = SOURCE_ROOT; };
 		8B26A9171B428AA2000C2690 /* RCTYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTube.h; sourceTree = SOURCE_ROOT; };
 		8B26A9181B428AA2000C2690 /* RCTYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYouTube.m; sourceTree = SOURCE_ROOT; };
 		8B26A9191B428AA2000C2690 /* RCTYouTubeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTubeManager.h; sourceTree = SOURCE_ROOT; };
@@ -48,15 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B26A9151B428A59000C2690 /* YTPlayerView */ = {
-			isa = PBXGroup;
-			children = (
-				8B26A9121B428A53000C2690 /* YTPlayerView.h */,
-				8B26A9131B428A53000C2690 /* YTPlayerView.m */,
-			);
-			name = YTPlayerView;
-			sourceTree = "<group>";
-		};
 		8BDB9BC01B4289AE00EF9FEF = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +66,6 @@
 			children = (
 				53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */,
 				53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */,
-				8B26A9151B428A59000C2690 /* YTPlayerView */,
 				8B26A9171B428AA2000C2690 /* RCTYouTube.h */,
 				8B26A9181B428AA2000C2690 /* RCTYouTube.m */,
 				8B26A9191B428AA2000C2690 /* RCTYouTubeManager.h */,
@@ -145,7 +132,6 @@
 			files = (
 				53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */,
 				8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */,
-				8B26A9141B428A53000C2690 /* YTPlayerView.m in Sources */,
 				8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
