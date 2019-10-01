@@ -70,9 +70,10 @@ The iOS implementation of this player uses the official YouTube iFrame under the
 
 ### Standalone Player (iOS)
 #### Setup
-Standalone iOS player Uses [XCDYoutubeKit](https://github.com/0xced/XCDYouTubeKit) (**Warning**: XCDYoutubeKit doesn't conform to YouTube's Terms Of Use). Add the next line to your `Podfile` and run `pod install` inside `/ios` folder:
+Standalone iOS player Uses [XCDYoutubeKit](https://github.com/0xced/XCDYouTubeKit) (**Warning**: XCDYoutubeKit doesn't conform to YouTube's Terms Of Use) and [YoutubePlayer-in-WKWebView](https://github.com/hmhv/YoutubePlayer-in-WKWebView). Add the next lines to your `Podfile` and run `pod install` inside `/ios` folder:
 ```
 pod 'XCDYouTubeKit', '~> 2.5'
+pod 'YoutubePlayer-in-WKWebView', '~> 0.3.1'
 ```
 
 #### Importing
@@ -152,18 +153,6 @@ Install the latest version to your `package.json`:
 Link the library to your iOS and Android projects with:
 
 `$ react-native link`
-
-**IMPORTANT! (iOS Only)**: To link `assets/YTPlayerView-iframe-player.html` to your project, `react-native link` is not enough (As of RN ~0.37 - ~0.45). You will need to *also* use the older tool it is based on, `rnpm` (This step must be done **after** `react-native link`):
-
-First, if you don't have it installed, globally install `rnpm` (^1.9.0):
-
-`$ npm install -g rnpm`
-
-Then at the project's root folder type:
-
-`$ rnpm link`
-
-(This step can also be done manually by adding `../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html` to your Xcode project's root directory)
 
 **IMPORTANT! (Android Only)**: The Android implementation of this component needs to have the official YouTube app installed on the device. Otherwise the user will be prompted to install / activate the app, and an error event will be triggered with `SERVICE_MISSING`/`SERVICE_DISABLED`.
 

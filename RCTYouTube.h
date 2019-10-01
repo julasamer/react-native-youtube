@@ -1,8 +1,8 @@
-#import "YTPlayerView.h"
+#import <YoutubePlayer-in-WKWebView/WKYTPlayerView.h>
 
 @class RCTBridge;
 
-@interface RCTYouTube : YTPlayerView <YTPlayerViewDelegate>
+@interface RCTYouTube : WKYTPlayerView <WKYTPlayerViewDelegate>
 
 - (instancetype)initWithBridge:(RCTBridge *)bridge NS_DESIGNATED_INITIALIZER;
 
