@@ -70,9 +70,10 @@ The iOS implementation of this player uses the official YouTube iFrame under the
 
 ### Standalone Player (iOS)
 #### Setup
-Standalone iOS player Uses [XCDYoutubeKit](https://github.com/0xced/XCDYouTubeKit) (**Warning**: XCDYoutubeKit doesn't conform to YouTube's Terms Of Use). Add the next line to your `Podfile` and run `pod install` inside `/ios` folder:
+Standalone iOS player Uses [XCDYoutubeKit](https://github.com/0xced/XCDYouTubeKit) (**Warning**: XCDYoutubeKit doesn't conform to YouTube's Terms Of Use) and [YoutubePlayer-in-WKWebView](https://github.com/hmhv/YoutubePlayer-in-WKWebView). Add the next lines to your `Podfile` and run `pod install` inside `/ios` folder:
 ```
 pod 'XCDYouTubeKit', '~> 2.5'
+pod 'YoutubePlayer-in-WKWebView', '~> 0.3.1'
 ```
 
 #### Importing
