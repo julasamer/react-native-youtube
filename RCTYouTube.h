@@ -1,4 +1,4 @@
-#import <YoutubePlayer-in-WKWebView/WKYTPlayerView.h>
+#import "WKYTPlayerView.h"
 
 @class RCTBridge;
 

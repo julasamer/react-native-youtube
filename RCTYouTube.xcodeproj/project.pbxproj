@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301C07A1242D1F8500326F12 /* WKYTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 301C079F242D1F8500326F12 /* WKYTPlayerView.m */; };
 		53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */ = {isa = PBXBuildFile; fileRef = 53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */; };
 		8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A9181B428AA2000C2690 /* RCTYouTube.m */; };
 		8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B26A91A1B428AA2000C2690 /* RCTYouTubeManager.m */; };
@@ -25,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		301C079F242D1F8500326F12 /* WKYTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKYTPlayerView.m; sourceTree = SOURCE_ROOT; };
+		301C07A0242D1F8500326F12 /* WKYTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKYTPlayerView.h; sourceTree = SOURCE_ROOT; };
+		301C07A2242D1FE500326F12 /* WKYTPlayerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WKYTPlayerView.bundle; sourceTree = SOURCE_ROOT; };
 		53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTubeStandalone.h; sourceTree = SOURCE_ROOT; };
 		53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTYouTubeStandalone.m; sourceTree = SOURCE_ROOT; };
 		8B26A9171B428AA2000C2690 /* RCTYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTYouTube.h; sourceTree = SOURCE_ROOT; };
@@ -64,6 +68,9 @@
 		8BDB9BCB1B4289AE00EF9FEF /* RCTYouTube */ = {
 			isa = PBXGroup;
 			children = (
+				301C07A2242D1FE500326F12 /* WKYTPlayerView.bundle */,
+				301C07A0242D1F8500326F12 /* WKYTPlayerView.h */,
+				301C079F242D1F8500326F12 /* WKYTPlayerView.m */,
 				53462DDD1F1FDBB6001DCD44 /* RCTYouTubeStandalone.h */,
 				53462DDE1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m */,
 				8B26A9171B428AA2000C2690 /* RCTYouTube.h */,
@@ -113,6 +120,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8BDB9BC01B4289AE00EF9FEF;
@@ -132,6 +140,7 @@
 			files = (
 				53462DDF1F1FDBB6001DCD44 /* RCTYouTubeStandalone.m in Sources */,
 				8B26A91C1B428AA2000C2690 /* RCTYouTubeManager.m in Sources */,
+				301C07A1242D1F8500326F12 /* WKYTPlayerView.m in Sources */,
 				8B26A91B1B428AA2000C2690 /* RCTYouTube.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
